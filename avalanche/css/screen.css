@@ -1,7 +1,7 @@
 /***************************************************************************/
 /* The bits that you probably want to override! */
 body {
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Helvetica", "Arial", "Liberation Sans", sans-serif;
     color: black;
     background-color: #333; /* Colour outside of slide */
@@ -17,13 +17,54 @@ div.slide h1, div.slide h2, div.slide h3, div.slide h4, div.slide h5, div.slide 
 }
 
 pre {
-  font-size: 26px;
+  font-size: 20px;
   font-family: Monaco, Courier, monospace;
 }
 
 li {
-  padding: 10px 0;
+  padding: 5px 0;
 }
+
+p {
+    margin:1px;
+}
+dl {
+    margin:10px;
+}
+dd {
+  margin-left: 15px;
+}
+
+/*by ning*/
+
+.literal, .literal-block {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    background-color: #F7F7F9;
+    border: solid 1px #EFEEE6;
+    border-radius: 3px;
+    color: #D14;
+    padding: 2px 4px;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;;
+    /*line-height: 26px;*/
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+/*strong {*/
+    /*background-color: #EBCADA;*/
+    /*color: #D14;*/
+    /*padding: 3px 4px;*/
+    /*border: 1px solid #E1E1E8;*/
+    /*border-radius: 3px;*/
+    /*-webkit-border-radius: 3px;*/
+    /*-moz-border-radius: 3px;*/
+/*}*/
 
 table {
   margin-top: 10px;
